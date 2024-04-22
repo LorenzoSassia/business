@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Plan System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <hr />
+    <header>
+        <h1>BUSINESS PLAN SYSTEM</h1>
+    </header>
+    <hr />
+    <nav class="menu">
+        <ul class="menu-flex">
+            <li><a href="index.html">Inicio</a></li>            
+            <li><a href="mision.html">Misión</a></li>            
+            <li><a href="objetivos.html">Objetivos</a></li>            
+            <li><a href="metodologia.html">Metodologia</a></li>            
+            <li><a href="resultados.html">Resultados</a></li>            
+            <li><a href="contactenos.html">Contactenos</a></li>            
+        </ul>
+    </nav>
+    <hr />
+    <section>
+        <h2>CONTACTENOS</h2>
+
+    <form action="mailto:infobusiness"></form>
+        <table border = "1" width: 100% align="center">
+            <tr>
+                <td>Nombre</td>
+                <td><input type="text" name="nombre" placeholder="Ingrese su nombre " required/></td>
+            </tr>
+            <tr>
+                <td>Direccion</td>
+                <td><input type="text" name="direccion" placeholder="Introduzca su direccion"/></td>
+            </tr>
+            <tr>
+                <td>Telefono</td>
+                <td><input type="tel" name="telefono" placeholder="Ingrese su Numero telefonico" required/></td>
+            </tr>
+            <tr>
+                <td>Mail</td>
+                <td><input type="mail" name="nombre" placeholder="Coloque su Mail" required/></td>
+            </tr>
+            <tr>
+                <td>Localidad</td>
+                <td><input type="text" name="localidad" placeholder="Ingrese su localidad" /></td>
+            </tr>
+            <tr>
+                <td>Provincia</td>
+                <td><input type="text" name="provincia" placeholder="Introduzca la provincia en la que vive"/></td>
+            </tr>
+            <tr>
+                <td>Sexo</td>
+                <td><input type="radio" name="Sexo" value="masculino" />Masculino<br />
+                <input type="radio" name="Sexo" value="femenino" />Femenino<br /></td>
+            </tr>
+            <tr>
+                <td>Fecha de nacimiento</td>
+                <td><input type="date" name = "fechadenac"required /></td>
+            </tr>
+            <tr>
+                <td>Edad</td>
+                <td><input type="number" name = "edad" required min="0"/></td>
+            </tr>
+            <tr>
+                <td>Forma de pago</td>
+                <td><select name="formapago">
+                    <option>Tarjeta</option>
+                    <option>Depósito Bancario</option>
+                    <option>Rapipago / Pago Fácil</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Enviar" />
+                    <input type="reset" value="Cancelar" /></td>
+            </tr>
+        </table>
+        
+    </section>
+    <hr />
+    <footer>Busines Plan System - Todos los derechos reservados - 2021</footer>
+</body>
+</html>
